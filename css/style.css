@@ -363,6 +363,10 @@ body{
   font-family: 'Quicksand';
 }
 
+.consulta-whatsapp img{
+    width: 50%;
+}
+
 /* FORMULARIO =================================== */
 
 .form_wrap{
@@ -659,7 +663,6 @@ h3{
     font-weight: 600;
     font-family: 'Quicksand', sans-serif;
 }
-
 
 
 span {
