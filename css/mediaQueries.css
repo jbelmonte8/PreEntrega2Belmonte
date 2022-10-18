@@ -1,0 +1,110 @@
+
+
+@media screen and (max-width: 990px) {
+    .productos-destacados{
+        align-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 685px) {
+    .banner{
+       height: 300px;
+       padding: 10px;
+    } 
+
+    .productos-destacados{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 990px){
+    .productos{
+        width: auto;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: 1fr 1fr 1fr 1fr; 
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 790px){
+    .productos{
+        width: auto;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,1fr); 
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .productos{
+        width: auto;        
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(5,1fr); 
+        margin-top: 10px;
+    }
+
+    .flex-menu{
+        flex-direction: column;
+      }  
+}
+
+
+
+@media screen and (max-width: 750px){
+    .flex-menu a{
+    font-size: 15px;
+    margin-right: 20px;
+    }    
+    
+
+    .productos{
+        width: auto;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,1fr); 
+        margin-top: 10px;
+    }
+
+    .bienvenidos{
+        height: 600px;
+        width: 90%;
+        flex-direction: column;  
+    }
+}
+
+    @media screen and (max-width: 500px){
+      .banner h2{
+        font-size: 40px;
+      }
+
+      .productos{
+        grid-template-columns: 1fr;
+        grid-template-rows: 10fr; 
+        margin-top: 10px;
+    }
+      }
+
+      @media screen and (max-width: 470px){
+        .boton-conocenos{
+         display: none;
+        }
+        .grid-container{
+            grid-template-columns: 1fr;
+            grid-template-rows: 0.1fr 0.1% 0.2fr 0.1fr;
+        }
+
+        .pie{
+        flex-direction: column;
+        justify-content: space-around;
+        margin-top: 5px;
+        padding: 10px;
+        }
+
+        .pie div{
+            margin: 20px;
+        }
+    
+        .pie h4{
+            text-align: left;
+        }
+      }
+
