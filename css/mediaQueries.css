@@ -2,7 +2,16 @@
 
 @media screen and (max-width: 990px) {
     .productos-destacados{
-        align-content: flex-start;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width:1120px){
+    .productos{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 }
 
@@ -23,6 +32,10 @@
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: 1fr 1fr 1fr 1fr; 
         margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 }
 
@@ -32,6 +45,10 @@
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(5,1fr); 
         margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 }
 
@@ -41,6 +58,10 @@
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: repeat(5,1fr); 
         margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
 
     .flex-menu{
@@ -94,7 +115,8 @@
 
         .pie{
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
+        align-items: center;
         margin-top: 5px;
         padding: 10px;
         }
