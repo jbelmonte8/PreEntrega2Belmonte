@@ -1,4 +1,12 @@
 
+@media screen and (max-width: 1030px){
+    .form_wrap{
+        width: 600px;
+        height: 520px;
+        margin: 20px auto;
+}
+
+
 @media screen and (max-width:1120px){
     .productos{
         display: flex;
@@ -80,6 +88,12 @@
     .flex-menu{
         flex-direction: column;
       }  
+
+      .form_wrap{
+        width: 400px;
+        height: 500px;
+        margin: 10px auto;
+}
 }
 
 
@@ -141,5 +155,11 @@
         .pie h4{
             text-align: left;
         }
+
+        .form_wrap{
+            width: 300px;
+            height: 550px;
+            margin: 10px auto;
+    }
       }
 
