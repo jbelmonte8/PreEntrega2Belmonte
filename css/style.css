@@ -235,11 +235,13 @@ align-items: center;
 }
 
 .video-taller{
-height: 100% 100vh;
+width: 750px;
+height: 400px;
 margin: auto;
 display: flex;
 justify-content: center;
 border: 3px solid #CC9966;
+margin-bottom: 20px;
 }
 
 /*-----------MAIN PRODUCTOS------------*/
@@ -347,14 +349,25 @@ transform: scale(1.1);
 
 /*-----------MAIN CONTACTO------------*/
 
+.contacto h3{
+    margin-top: 30px;
+    font-size: 25px;
+}
 
-.contacto{
+.contacto div{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 .contacto p {
     text-align: left;
+    color: black;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
 }
 
 
@@ -381,7 +394,11 @@ body{
 }
 
 .consulta-whatsapp img{
-    width: 50%;
+    width: 200px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
 }
 
 /* FORMULARIO =================================== */
@@ -390,6 +407,7 @@ body{
   width: 1050px;
   height: 530px;
   margin: 50px auto;
+  margin-top: 70px;
   display: flex;
 
   background: #fff;

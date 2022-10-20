@@ -4,6 +4,13 @@
         width: 600px;
         height: 520px;
         margin: 20px auto;
+        margin-top: 50px;
+}
+
+.info_title h2{
+    font-size: 25px;
+    text-align: center;
+  }
 }
 
 
@@ -93,7 +100,14 @@
         width: 400px;
         height: 500px;
         margin: 10px auto;
+        margin-top: 40px;
 }
+
+.info_title h2{
+    font-size: 20px;
+    text-align: center;
+  }
+
 }
 
 
@@ -117,6 +131,11 @@
         width: 90%;
         flex-direction: column;  
     }
+
+    .video-taller{
+        width: 450px;
+        height: 250px;
+
 }
 
     @media screen and (max-width: 500px){
@@ -135,6 +154,7 @@
         .boton-conocenos{
          display: none;
         }
+
         .grid-container{
             grid-template-columns: 1fr;
             grid-template-rows: 0.1fr 0.1% 0.2fr 0.1fr;
@@ -142,24 +162,43 @@
 
         .pie{
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
+        flex-wrap: wrap;
         margin-top: 5px;
-        padding: 10px;
+        gap: 10px;
         }
 
         .pie div{
             margin: 20px;
-        }
-    
-        .pie h4{
-            text-align: left;
         }
 
         .form_wrap{
             width: 300px;
             height: 550px;
             margin: 10px auto;
+            margin-top: 30px;
     }
+
+    .info_title h2{
+        display: none;
       }
 
+      form.form_contact input[type="button"]{
+        width: 125px;
+      }
+
+      .video-taller{
+        width: 300px;
+        height: 180px;
+    }
+
+    .taller h1{
+        font-size: 35px;
+    }
+
+    .principal h1{
+        font-size: 35px;
+    }
+
+}
