@@ -1,0 +1,39 @@
+/**--------HEADER-----------**/
+
+.encabezado{
+    grid-area: header;
+    background-color: #f5f4ef;
+    .logo{
+        width: 100% 100vh;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .menu{
+        .flex-menu{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            padding: 5px;
+            background-color: #CC9966;
+            position: sticky;
+            top: 0;
+        a{
+            text-decoration: none;
+            color: #f5f4ef;
+            font-size: 20px;
+            font-style: normal ;
+            font-weight: 300;
+            font-family: 'Quicksand', sans-serif;
+            margin-right: 35px;
+            background-color: #CC9966;
+            margin: 30px;
+        &:hover{
+            color: #70706E;
+        }
+      }
+    }
+  }
+}
